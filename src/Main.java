@@ -25,7 +25,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int[] array = {1, 2, 3, 4, 5};
+        int[] array = {1, 2, 3, 4, 5};//U can write any array(1 dimensional) with any length
         System.out.println(Arrays.toString(getSwappedArray(array, 2)));
 
 //        Arrays.stream(getSwappedArray(array, 0)).forEach(System.out::println); //U can use stream for showing result
@@ -34,3 +34,4 @@ public class Main {
 //        WithCollections.getSwappedArray(array, 2,4); //Swap one element of array with Collections
     }
 }
+//Output: [3,4,5,1,2]
