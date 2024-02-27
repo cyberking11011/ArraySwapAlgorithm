@@ -31,6 +31,6 @@ public class Main {
 //        Arrays.stream(getSwappedArray(array, 0)).forEach(System.out::println); //U can use stream for showing result
 
 
-//        Test.getSwappedArray(array, 2,4); //Swap one element of array with Collections
+//        WithCollections.getSwappedArray(array, 2,4); //Swap one element of array with Collections
     }
 }
